@@ -1,0 +1,94 @@
+/* General Container Styling */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header Styling */
+.header .text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header .underline {
+  width: 50px;
+  height: 3px;
+  background-color: #5a9;
+  /* Greenish underline */
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+/* Input Fields Styling */
+.inputs {
+  margin: 20px 0;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.input img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Forgot Password Styling */
+.forgot-password {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.forgot-password span {
+  color: #5a9;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Submit Buttons Styling */
+.submit-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.submit {
+  background-color: #5a9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #4a8;
+}
+
+.gray {
+  background-color: #EAEAEA;
+  color: #676767;
+}
