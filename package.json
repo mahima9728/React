@@ -1,0 +1,36 @@
+{
+  "name": "react--app",
+  "version": "1.0.0",
+  "description": "This is react by Me",
+  "scripts": {
+    "start":"parcel index.html",
+     "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahima9728/React.git"
+  },
+  "keywords": [
+    "react-app",
+    "mahima"
+  ],
+  "author": "Mahima Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahima9728/React/issues"
+  },
+  "homepage": "https://github.com/mahima9728/React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "reacct-dom": "^1.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserlist":[
+    "last 2 version"
+  ]
+}
