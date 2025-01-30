@@ -1,1 +1,1 @@
-This is a blanck file
+This is a blank file
